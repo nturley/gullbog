@@ -1,0 +1,15 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:all",
+        "tslint-react"
+    ],
+    "jsRules": {},
+    "rules": {
+        "completed-docs": false,
+        "member-access": false,
+        "prefer-function-over-method": false,
+        "typedef":false
+    },
+    "rulesDirectory": []
+}
