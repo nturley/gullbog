@@ -12,6 +12,6 @@ jobs:
     - name: install frontend
       run: cd front && npm install .
     - name: build frontend
-      run: npm run build
+      run: cd front && npm run build
     - name: lint frontend
-      run: npm run lint
+      run: cd front && npm run lint
