@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "lint": "tslint --project tsconfig.json",
-    "build": "webpack && copyfiles static dist"
+    "build": "webpack && copyfiles static/* dist --flat -V"
   },
   "author": "",
   "license": "MIT",
