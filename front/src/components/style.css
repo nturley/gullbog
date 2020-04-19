@@ -1,0 +1,25 @@
+body {
+    margin: 0 0;
+}
+div {
+    font-size: 50px;
+    border-color: black;
+    border-width: 5px;
+}
+h1 {
+    margin: 0 0;
+}
+.header{
+    text-align: center;
+    background-color: orange;
+}
+.flex-grid {
+    display: flex;
+  }
+.col {
+    flex: 1;
+    background-color: green;
+  }
+#game-board {
+    background-color: blue;
+}
