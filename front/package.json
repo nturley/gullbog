@@ -4,21 +4,27 @@
   "description": "",
   "scripts": {
     "lint": "tslint --project tsconfig.json",
-    "build": "webpack && copyfiles static dist"
+    "build": "webpack && copyfiles static dist",
+    "start": "concurrently \"webpack-dev-server --hot\" \"opener http://localhost:5000\" ",
+    "clean": "rimraf dist"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.6",
+    "concurrently": "^5.1.0",
     "copyfiles": "^2.2.0",
+    "opener": "^1.5.1",
     "source-map-loader": "^0.2.4",
     "ts-loader": "^6.2.2",
     "tslint": "^6.1.1",
     "tslint-react": "^4.2.0",
     "typescript": "^3.8.3",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "react": "^16.13.1",
