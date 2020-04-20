@@ -1,5 +1,5 @@
 ![CI](https://github.com/nturley/gullbog/workflows/CI/badge.svg)
-[![Heroku](https://heroku-badge.herokuapp.com/?app=gullbog)](gullbog.herokuapp.com)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=gullbog)](http://gullbog.herokuapp.com)
 
 # Gullbog
 
