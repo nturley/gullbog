@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "![CI](https://github.com/nturley/gullbog/workflows/CI/badge.svg) # Gullbog",
   "scripts": {
+    "install": "npm explore gullbog-front -- npm install .",
     "build": "npm explore gullbog-front -- npm run build",
     "start": "npm explore gullbog-back -- npm run start"
   },
