@@ -1,4 +1,6 @@
 ![CI](https://github.com/nturley/gullbog/workflows/CI/badge.svg)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=gullbog)]
+
 # Gullbog
 
 An online game similar to the game Boggle.
